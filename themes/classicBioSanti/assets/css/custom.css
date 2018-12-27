@@ -1,0 +1,237 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family:lato;
+    }
+    a{
+       color: #2B4C52;
+    }
+    .header-nav{
+       position: fixed;
+       width: 100%;
+       margin-right: 1%;
+       background-color: rgb(255, 255, 255,0.7);
+       z-index: 5;
+       overflow-x: hidden;
+    }
+    .logo{
+       line-height: 48px;
+       margin-left: 5%;
+    }
+    .rightMenu{
+      
+    }
+
+/* edycja carusel, niekatywana*/ 
+.carousel {
+    height: 60vh; 
+    
+ }
+ .carousel .item {
+    min-width:100%;
+    height:60vh; 
+    background-color: #777;
+ }
+ .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 60vh; 
+    
+ }
+ .header-top {
+   position: absolute;
+   top:48px;
+   height: 450px;
+   position: relative;
+   overflow: hidden;
+  }
+
+  .header-top img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   animation: slider 15s infinite linear;
+  }
+
+  .header-top img:nth-child(2) {
+   animation-delay: 5s;
+  }
+
+  .header-top img:nth-child(3) {
+   animation-delay: 10s;
+  }
+
+  .header-top h1 {
+   position: absolute;
+   font-size: 40px;
+   background-color: rgba(82, 79, 79, 0.685);
+   font-family: 'lato';
+   color: white;
+   padding: 20px 60px;
+   animation: txt 15s linear infinite both;
+   opacity: 0;
+
+  }
+/****SPA****/
+  .header-top h1:nth-of-type(1) {
+   top: 80%;
+   right: 1%;
+  }
+/****HOME****/
+  .header-top h1:nth-of-type(2) {
+   bottom: 5%;
+   left: 15%;
+   animation-delay: 5s;
+  }
+/****SPORT****/
+  .header-top h1:nth-of-type(3) {
+   bottom: 10%;
+   left: 50%;
+   animation-delay: 10s;
+  }
+   @keyframes txt {
+   0% {
+    opacity: 0;
+   }
+    5% {
+    opacity: 0;
+   }
+    10% {
+    opacity: 1;
+   }
+   23.33% {
+    opacity: 1;
+   }
+    28.33% {
+    opacity: 0;
+   }
+   33.33% {
+    opacity: 0
+   }
+   100% {
+    opacity: 0;
+   }
+}
+   @keyframes slider {
+   0% {
+    opacity: 0;
+   }
+   5% {
+    opacity: 1
+   }
+   33.33% {
+    opacity: 1
+   }
+   38.33% {
+    opacity: 0;
+   }
+   100% {
+    opacity: 0;
+   }
+}
+ 
+.nav{
+   margin-top: 5%;
+   display: flex;
+   justify-content: stretch;
+
+}
+.activeTab {
+    color: #555;
+    cursor: default;
+    background-color: #e3eef1;
+    border-radius: 4px 4px 0 0;
+    border: 1.8px solid #ddd;
+    border-bottom-color: transparent;
+   }
+
+.nav-tabs>li>a {
+    line-height: 1.42857143;
+   }
+.nav-tabs ul li:nth-child(1){
+    margin-left:5%;        /*pierwszy element */
+}
+
+
+.nav>li>a {
+   position: relative;
+   display: block;
+   padding: 10px 38px;
+   color: #2B4C52;
+
+}
+.thumbnail-container{
+   margin-left: 5%;
+}
+.productDescription{
+   width:500px;
+   height: 250px;
+   border-radius: 5px;
+   margin-right: 5%;
+   float:right;
+  }
+  @media(max-width:1000px){
+   .productDescription{
+      display: none;
+   }
+
+
+  }
+.txtDescription{
+   color: black;
+   text-align: justify;
+
+}
+   .flexNewsletter{
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right:auto;
+   }
+   .block_newsletter{
+      text-align: center;
+     }
+
+.footer-container{
+   background-color: rgb(8, 8, 8);
+   color: white;
+   padding-left: 2%;
+}
+.footer-container li a{
+   color:#6E4F42;
+   font-size: 16px;
+   font-weight: 600;
+}
+.footer-container li a:hover{
+   color:white;
+}
+.footer-container a{
+   color:#687B73;
+   font-size: 16px;
+   font-weight: 600;
+}
+.footer-container p{
+   font-size: 19px;
+}
+.footer-container .text-uppercase{
+   font-size: 19px;
+}
+    
+@media (max-width: 767px){
+.footer-container {
+   padding-left: 5%;
+
+}
+     }
+    
