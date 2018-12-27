@@ -1,2 +1,1 @@
-# presta
 # shopTheme
