@@ -7,6 +7,7 @@
     margin:0;
     padding:0;
     font-family:lato;
+    /*overflow-x: hidden;*/
     }
     a{
        color: #2B4C52;
@@ -23,10 +24,7 @@
        line-height: 48px;
        margin-left: 5%;
     }
-    .rightMenu{
-      
-    }
-
+    
 /* edycja carusel, niekatywana*/ 
 .carousel {
     height: 60vh; 
@@ -185,41 +183,43 @@
    .productDescription{
       display: none;
    }
-
-
   }
 .txtDescription{
    color: black;
    text-align: justify;
 
 }
-   .flexNewsletter{
-      display: flex;
-      justify-content: center;
-      margin-left: auto;
-      margin-right:auto;
+#footer{
+   overflow-x:hidden;
+
+}
+   .positionNewsletter{
+      position:relative;
+      top:50%;
+      left:50%;
+      transform:translate(-18%,-50%); 
+      
    }
    .block_newsletter{
       text-align: center;
      }
 
 .footer-container{
-   background-color: rgb(8, 8, 8);
-   color: white;
+   background-color:#f0f0f0;
    padding-left: 2%;
 }
 .footer-container li a{
-   color:#6E4F42;
+   color:#707070;
    font-size: 16px;
-   font-weight: 600;
+   font-family: 'arial';
 }
 .footer-container li a:hover{
-   color:white;
+   color:#BDBDBD;
 }
 .footer-container a{
    color:#687B73;
    font-size: 16px;
-   font-weight: 600;
+   
 }
 .footer-container p{
    font-size: 19px;
@@ -230,8 +230,11 @@
     
 @media (max-width: 767px){
 .footer-container {
+   width:100%;
    padding-left: 5%;
-
+}
+.positionNewsletter{
+   transform:translate(-50%,-50%);
 }
      }
     

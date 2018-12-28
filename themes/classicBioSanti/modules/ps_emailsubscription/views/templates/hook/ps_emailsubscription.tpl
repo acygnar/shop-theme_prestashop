@@ -22,7 +22,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="flexNewsletter">
+<div class="positionNewsletter">
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12">
   <div class="row">
    <div class="col-md-7 col-xs-12">
