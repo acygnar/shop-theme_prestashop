@@ -1,0 +1,13 @@
+1546438464
+s:2725:"HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 02 Jan 2019 12:14:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2414
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+X-UA-Compatible: IE=Edge,chrome=1
+Strict-Transport-Security: max-age=0
+
+{"modules":[{"id":"22314","name":"ps_categorytree","displayName":"Category tree links","categoryName":"Bloki, Zak\u0142adki & Banery","description":"Help visualize the navigation on your store, show your visitors the current category and subcategories","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/pl\/bloki-zakladki-banery\/22314-category-tree-links.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-PL&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/22314.jpg","fullDescription":"Help visualize the navigation on your store, show your visitors the current category and subcategories.","additionalDescription":"Use this native module to:\r\n<ul>\r\n\t<li>\u200b<strong>Ease navigation on your store<\/strong>: make it simple for your customer to browse your shop and see available subcategories.<\/li>\r\n\t<li><strong>Picture the category tree<\/strong>: it is very useful to navigate between category and subcategory pages.<\/li>\r\n\t<li><strong>Facilitate the search<\/strong>: help your visitors to easily find the items they want. Indeed, they just have to look at the right place, and they will spot it quickly!<\/li>\r\n<\/ul>\r\n","features":"You can select which category you want to highlight, how many subcategories you want to display, and how to sort categories.<br \/>\r\n<br \/>\r\n<u>Home<\/u><u> category<\/u> will display all pages between the one you&rsquo;re in now and the homepage.<br \/>\r\n<u>Current<\/u><u> category<\/u> will display the name of the category you&rsquo;re in now.<br \/>\r\n<u>Parent category<\/u> will display all the categories that are on the same level as the one you&rsquo;re in now.","customer_benefits":"","demo_video":"","version":"2.0.0","last_update":"2019-01-02 04:59:53","compatibility":{"from":"1.7.1.0","to":"1.7.5.0"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias1.prestastore.com\/1271790-pprod\/category-tree-links.jpg","big":"https:\/\/medias1.prestastore.com\/1271790-pbig\/category-tree-links.jpg"},"pictures":{"small":["https:\/\/medias1.prestastore.com\/1271789-pprod\/category-tree-links.jpg"],"big":["https:\/\/medias1.prestastore.com\/1271789-pbig\/category-tree-links.jpg"]}}]}";

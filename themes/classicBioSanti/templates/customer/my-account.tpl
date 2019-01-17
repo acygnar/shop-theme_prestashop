@@ -29,6 +29,7 @@
 {/block}
 
 {block name='page_content'}
+<div class="accountLinks"
   <div class="row">
     <div class="links">
 
@@ -94,7 +95,7 @@
       {block name='display_customer_account'}
         {hook h='displayCustomerAccount'}
       {/block}
-
+      </div>
     </div>
   </div>
 {/block}

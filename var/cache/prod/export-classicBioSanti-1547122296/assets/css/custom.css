@@ -1,0 +1,502 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    a{
+       color: #2B4C52;
+    }
+    .header-nav{
+       position: fixed;
+       width: 100%;
+       margin-right: 1%;
+       background-color: rgb(255, 255, 255,0.7);
+       z-index: 5;
+       box-shadow: 0 4px 2px -2px rgb(194, 192, 192);
+    }
+    .logo{
+       line-height: 48px;
+       margin-left: 5%;
+    }
+
+ .header-top {
+   position: absolute;
+   top:48px;
+   height: 450px;
+   position: relative;
+  }
+
+  .header-top img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   animation: slider 15s infinite linear;
+  }
+
+  .header-top img:nth-child(2) {
+   animation-delay: 5s;
+  }
+
+  .header-top img:nth-child(3) {
+   animation-delay: 10s;
+  }
+
+  .header-top h1 {
+   position: absolute;
+   font-size: 40px;
+   background-color: rgba(82, 79, 79, 0.685);
+   font-family: 'lato';
+   color: white;
+   padding: 20px 60px;
+   animation: txt 15s linear infinite both;
+   opacity: 0;
+
+  }
+/****SPA****/
+  .header-top h1:nth-of-type(1) {
+   top: 80%;
+   right: 1%;
+  }
+/****HOME****/
+  .header-top h1:nth-of-type(2) {
+   bottom: 5%;
+   left: 15%;
+   animation-delay: 5s;
+  }
+/****SPORT****/
+  .header-top h1:nth-of-type(3) {
+   bottom: 10%;
+   right: 2%;
+   animation-delay: 10s;
+  }
+
+  .nav{
+   display: flex;
+   justify-content: stretch;
+   align-items: center;
+   box-sizing: border-box;
+   
+
+}
+@media (max-width: 780px){
+   .tabs{
+      margin-top: 5%;
+   }
+}
+.activeTab {
+    color: #555;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    border-bottom-color: transparent;
+   }
+.nav>li {
+   display: flex;
+   padding: 20px 38px;
+   color: #F8F9F8;
+   font-family: 'lato';
+   font-size: 50px;
+   flex-basis:33.33%;
+   justify-content: center;
+   align-content: center;
+   cursor: pointer;
+   transition: 0.3s;
+   
+}
+
+.nav li:nth-of-type(1):hover{
+   background-color: #F8F9F8;
+   border-radius: 10px 10px 0 0;
+}
+.nav li:nth-of-type(2):hover{
+   background-color: #fff4f4;
+   border-radius: 10px 10px 0 0;
+}
+.nav li:nth-of-type(3):hover{
+   background-color: #f0f0f0;
+   border-radius: 10px 10px 0 0;
+}
+@media (max-width: 400px){
+   .nav>li>a {
+      padding: 10px 28px;
+   }
+}
+
+#wrapper{
+   margin-top: 5%;
+}
+
+/*****HOME*****/
+.catHomeDescription{
+   display: flex;
+   width: 100%;
+   background-color:	#F8F9F8;
+}
+.imgHome{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-basis: 50%;
+   
+}
+.imgHome img{
+   animation-fill-mode:backwards;
+   animation-delay: 0.3s;
+   animation-duration: 1.5s;
+}
+.animateslideLeft{
+   animation: slideLeft;
+}
+.catHomeTxt{
+   padding-top: 350px;
+   padding-left: 100px;
+   flex-basis: 50%;
+   }
+
+.catHomeTxt h1{
+   color:#dbbc8a;
+   font-size:45px;
+   animation: slideTop;
+   animation-fill-mode:backwards;
+   animation-delay: .5s;
+   animation-duration: 0.5s;
+}
+.catHomeTxt h3{
+   color:#979797;
+   font-size:14px;
+   text-transform: uppercase;
+   animation: slideTop;
+   animation-fill-mode:backwards;
+   animation-duration: 0.5s; 
+}
+.catHomeTxt p{
+   color: #979797;
+   font-size: 15px;
+   width: 53%;
+   margin: 45px 0 30px 0;
+   line-height: 1.5;
+   animation: slideTop;
+   animation-fill-mode:backwards;
+   animation-delay: 1s;
+   animation-duration: 0.7s;
+   }
+   .svgWave{
+      stroke: none;
+      fill:	#F8F9F8;
+    }
+
+    /*****SPA*****/
+
+
+   .catSpaDescription{
+      display: flex;
+      width: 100%;
+      background-color:	#fff4f4;
+   }
+   .catSpaTxt h1{
+   padding-top: 20%;
+   padding-left: 10%;
+   color:#f8dedf;
+   font-size:100px;
+   text-transform: uppercase;
+   animation: slideRight;
+   animation-fill-mode:backwards;
+   animation-duration: 1.2s;
+   }
+   .catSpaTxt h3{
+   font-size:32px;
+   text-transform: uppercase;
+   color: #5c5c5c;
+   padding-top: 4%;
+   padding-bottom: 2%;
+   animation: slideRight;
+   animation-fill-mode:backwards;
+   animation-duration: 1.2s;
+   }
+   .catSpaTxt p{
+   font-size: 16px;
+   color: #777;
+   text-align: justify;
+   margin-top: 10px;
+   width: 85%;
+   animation: slideRight;
+   animation-fill-mode:backwards;
+   animation-duration: 1.5s;
+
+   }
+
+   .imgSpa{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-basis: 50%;
+   padding-top: 5%;
+   }
+   .imgSpa img{
+   padding-top: 20%;
+   animation: slideTop;
+   animation-fill-mode:backwards;
+   animation-delay: 0.3s;
+   animation-duration: 1.5s;
+      
+   }
+   .catSpaTxt{
+      flex-basis: 50%;
+   }
+   .svgWaveSpa{
+      stroke: none;
+      fill:	#fff4f4;
+    }
+
+
+
+svg {
+   display: inline-block;
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ .wave{
+   display:block;
+   position: absolute;
+   width: 100%;
+   padding-bottom: 50%;
+   overflow: hidden;
+ }
+
+ /*****SPORT*****/
+
+ .catSportDescription{
+   display: flex;
+   width: 100%;
+   background-color:	#fff;
+   flex-wrap: wrap;
+}
+.imgSport h1{
+   font-size: 150px;
+   color: #f0f0f0
+}
+.inscription{
+   animation: slideLeft;
+   animation-fill-mode:backwards;
+   animation-duration: 1s;
+}
+.square{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-color: #cef1fd; 
+}
+.row1{
+   display: inline-block;
+   font-size: 32px;
+   color: #212529;
+   padding-top: 8%;
+   }
+.row2{
+   display: block;
+   font-size: 32px;
+   color: #212529;
+}
+ .imgSport{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+ }
+ .imgSport img{
+   animation: slideTop;
+   animation-fill-mode:backwards;
+   animation-delay: 0.6s;
+   animation-duration: 1.5s;
+   
+    
+ }
+ .catSportTxt{
+    padding-top: 25%;
+    padding-left: 10%;
+    width: 50%;
+    
+
+    
+
+ }
+ .catSportTxt h3{
+   color:#979797;
+   font-size:14px;
+   text-transform: uppercase;
+   animation: slideRight;
+   animation-fill-mode:backwards;
+   animation-delay: 0.6s;
+   animation-duration: 1.5s;
+}
+ 
+.catSportTxt p{
+   color: #979797;
+   width: 53%;
+   margin: 45px 0 30px 0;
+   line-height: 1.5;
+   text-align: justify;
+   animation: slideRight;
+   animation-fill-mode:backwards;
+   animation-delay: 0.9s;
+   animation-duration: 1.5s;
+
+}
+.sportwave {
+  
+}
+.sportwave img{
+   width:100%;
+}
+.sportProduct .products{
+   margin-top: 10%;
+
+}
+
+
+ 
+.products{
+   margin-top: 35%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.highlighted-informations a:hover{
+color:red;
+}
+.quick-view i,span{
+   margin: 0;
+}
+#footer{
+   position: absolute;
+   width: 100%;
+   overflow: hidden;
+}
+   .positionNewsletter{
+      position: relative;
+      top:50%;
+      left:50%;
+      transform: translate(-20%,-50%);
+   }
+   .block_newsletter{
+      text-align: center;
+     }
+
+.footer-container{
+   background-color:#f0f0f0;
+   padding-left: 2%;
+}
+.footer-container li a{
+   color:#707070;
+   font-size: 16px;
+   font-family: 'arial';
+}
+.footer-container li a:hover{
+   color:#BDBDBD;
+}
+.footer-container a{
+   color:#687B73;
+   font-size: 16px;
+   
+}
+.footer-container p{
+   font-size: 19px;
+}
+.footer-container .text-uppercase{
+   font-size: 19px;
+}
+    
+
+
+   .label:hover{
+      color:#707070;
+}
+    
+
+
+
+
+/*****ANIMATION*****/
+@keyframes txt {
+   0% {
+    opacity: 0;
+   }
+    5% {
+    opacity: 0;
+   }
+    10% {
+    opacity: 1;
+   }
+   23.33% {
+    opacity: 1;
+   }
+    28.33% {
+    opacity: 0;
+   }
+   33.33% {
+    opacity: 0
+   }
+   100% {
+    opacity: 0;
+   }
+}
+   @keyframes slider {
+   0% {
+    opacity: 0;
+   }
+   5% {
+    opacity: 1
+   }
+   33.33% {
+    opacity: 1
+   }
+   38.33% {
+    opacity: 0;
+   }
+   100% {
+    opacity: 0;
+   }
+}
+@keyframes slideLeft{
+   0%{
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+   }
+   100%{
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+   }
+}
+@keyframes slideTop{
+   0%{
+      transform: translate3d(0, -100%, 0);
+      opacity: 0;
+   }
+   100%{
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+   }
+}
+@keyframes slideRight{
+   0%{
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+   }
+   100%{
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+   }
+}

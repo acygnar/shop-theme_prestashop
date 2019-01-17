@@ -51,14 +51,13 @@
     </div>
   </nav>
 {/block}
-
-{block name='header_top'}
+ {block name='header_top'}
   <div class="header-top">
-  <img class="imgBaner" src="..\presta\themes\classicBioSanti\img\img1.jpg" alt="">
-  <img class="imgBaner" src="..\presta\themes\classicBioSanti\img\img2.jpg" alt="">
-  <img class="imgBaner" src="..\presta\themes\classicBioSanti\img\img3.jpg" alt="">
-  <h1 class="txtBaner">FAJNY TEKST O SPA</h1>
-  <h1 class="txtBaner">SUPER TEKST O HOME</h1>
-  <h1 class="txtBaner">EKSTRA TEKST O SPORT</h1>
+  <img class="imgBaner" src="\presta\themes\classicBioSanti\img\img1.jpg" alt="">
+  <img class="imgBaner" src="\presta\themes\classicBioSanti\img\img2.jpg" alt="">
+  <img class="imgBaner" src="\presta\themes\classicBioSanti\img\img3.jpg" alt="">
+  <h1 class="txtBaner">Nowa kolekcja Bisanti SPA.Sparawdź!</h1>
+  <h1 class="txtBaner">Kup dwa produkty Home trzeci 30% taniej!</h1>
+  <h1 class="txtBaner">10% zniżki na wszystkie żele!</h1>
   </div>
 {/block}

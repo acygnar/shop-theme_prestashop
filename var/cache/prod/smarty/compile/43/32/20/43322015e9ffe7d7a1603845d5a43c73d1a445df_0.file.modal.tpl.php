@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2018-12-27 21:22:59
+/* Smarty version 3.1.33, created on 2019-01-10 13:01:51
   from 'C:\xampp2\htdocs\presta\modules\ps_themecusto\views\templates\admin\controllers\advanced\elem\modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c2534a3548b83_19312875',
+  'unifunc' => 'content_5c37342f5bdef9_71553166',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c2534a3548b83_19312875 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c37342f5bdef9_71553166 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="modal fade" id="upload-child-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">

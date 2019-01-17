@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2018-12-27 22:13:10
+/* Smarty version 3.1.33, created on 2019-01-16 12:37:58
   from 'module:psemailsubscriptionviewst' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c2540662507c4_79851269',
+  'unifunc' => 'content_5c3f1796bb26a4_72523379',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:psemailsubscriptionviewst',
-      1 => 1545854931,
+      1 => 1546003316,
       2 => 'module',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c2540662507c4_79851269 (Smarty_Internal_Template $_smarty_tpl) {
-?><div class="flexNewsletter">
+function content_5c3f1796bb26a4_72523379 (Smarty_Internal_Template $_smarty_tpl) {
+?><div class="positionNewsletter">
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12">
   <div class="row">
    <div class="col-md-7 col-xs-12">

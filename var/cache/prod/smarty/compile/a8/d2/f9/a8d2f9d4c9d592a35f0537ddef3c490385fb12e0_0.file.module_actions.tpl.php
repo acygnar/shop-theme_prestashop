@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2018-12-27 21:23:00
+/* Smarty version 3.1.33, created on 2019-01-10 13:01:44
   from 'C:\xampp2\htdocs\presta\modules\ps_themecusto\views\templates\admin\controllers\configuration\elem\module_actions.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c2534a4301f03_74191088',
+  'unifunc' => 'content_5c37342827ad00_50164853',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c2534a4301f03_74191088 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c37342827ad00_50164853 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="loader src_loader_<?php echo $_smarty_tpl->tpl_vars['module']->value['name'];?>
 "></div>
 

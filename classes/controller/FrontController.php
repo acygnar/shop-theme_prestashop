@@ -176,6 +176,7 @@ class FrontControllerCore extends Controller
      *
      * @global bool $useSSL SSL connection flag
      */
+    
     public function __construct()
     {
         $this->controller_type = 'front';
@@ -488,6 +489,34 @@ class FrontControllerCore extends Controller
     public function postProcess()
     {
     }
+    /****Category description****/
+    public static function getTxt($id_txt)
+    {
+        $Sqlquery='SELECT `txt` FROM `ps_category_txt` where `id`='.(int)$id_txt.'';
+        
+        if ($results = Db::getInstance()->ExecuteS($Sqlquery))
+        foreach ($results as $row)
+        echo $row['txt'];
+    }
+    
+    public static function getH3($id_h3)
+    {
+        $Sqlquery='SELECT `h3` FROM `ps_category_txt` where `id`='.(int)$id_h3.'';
+        
+        if ($results = Db::getInstance()->ExecuteS($Sqlquery))
+        foreach ($results as $row)
+        echo $row['h3'];
+    }
+    public static function getFeature($id_feature)
+    {
+        $Sqlquery='SELECT `feature` FROM `ps_category_features` where `id`='.(int)$id_feature.'';
+        
+        if ($results = Db::getInstance()->ExecuteS($Sqlquery))
+        foreach ($results as $row)
+        echo $row['feature'];
+    }
+    
+    
 
     protected function assignGeneralPurposeVariables()
     {

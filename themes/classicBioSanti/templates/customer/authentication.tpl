@@ -42,5 +42,8 @@
           {l s='No account? Create one here' d='Shop.Theme.Customeraccount'}
         </a>
       </div>
+      <div class="backHomepage">
+      <a href="{$urls.base_url}">Strona główna</a>
+      </div>
     {/block}
 {/block}

@@ -22,6 +22,21 @@
             tabsItem.hide().eq(index).fadeIn(400);
     
     });
-
-
+    $(window).scroll(function () {
+        var currentposition = $(document).scrollTop();
+        var navheight = $('.header-nav').height();
+        if (currentposition > navheight) {
+            $('.imgHome img').addClass('animateslideLeft');
+        } 
+    });
+    $(window).scroll(function () {
+        var currentposition = $(document).scrollTop();
+        var navheight = $('.header-nav').height();
+        if (currentposition > navheight) {
+            $('.header-nav').addClass('nav-shadow');
+         } 
+         else{
+             $('.header-nav').removeClass('nav-shadow');
+              }
+    });
 })(jQuery);
