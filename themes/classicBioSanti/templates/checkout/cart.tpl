@@ -33,7 +33,7 @@
       <div class="cart-grid-body col-xs-12 col-lg-8">
 
         <!-- cart products detailed -->
-        <div class="card cart-container">
+        <div class="cart-container">
           <div class="card-block">
             <h1 class="h1">{l s='Shopping Cart' d='Shop.Theme.Checkout'}</h1>
           </div>

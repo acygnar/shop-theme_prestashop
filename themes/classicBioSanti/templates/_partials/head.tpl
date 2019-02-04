@@ -51,6 +51,7 @@
 {/block}
 {block name='fontLato'}
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 {/block}
 
 {block name='head_icons'}

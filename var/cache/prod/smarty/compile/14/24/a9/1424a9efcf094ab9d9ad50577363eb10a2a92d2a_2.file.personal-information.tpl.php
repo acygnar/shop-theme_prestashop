@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-01-09 15:42:15
+/* Smarty version 3.1.33, created on 2019-01-18 11:48:38
   from 'C:\xampp2\htdocs\presta\themes\classicBioSanti\templates\checkout\_partials\steps\personal-information.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c3608478cc9e2_66568848',
+  'unifunc' => 'content_5c41af06e86e08_65974324',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1424a9efcf094ab9d9ad50577363eb10a2a92d2a' => 
     array (
       0 => 'C:\\xampp2\\htdocs\\presta\\themes\\classicBioSanti\\templates\\checkout\\_partials\\steps\\personal-information.tpl',
-      1 => 1544687276,
+      1 => 1547808339,
       2 => 'file',
     ),
   ),
@@ -20,25 +20,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c3608478cc9e2_66568848 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c41af06e86e08_65974324 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_12764051695c3608478bad89_72212588', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8346966375c41af06e75234_67774061', 'step_content');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_12764051695c3608478bad89_72212588 extends Smarty_Internal_Block
+class Block_8346966375c41af06e75234_67774061 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_12764051695c3608478bad89_72212588',
+    0 => 'Block_8346966375c41af06e75234_67774061',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -61,7 +61,14 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
   <?php } else { ?>
 
-    <ul class="nav nav-inline my-2" role="tablist">
+    <ul class="navi nav-inline my-2" role="tablist">
+      <li class="nav-item">
+        <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['base_url'], ENT_QUOTES, 'UTF-8');?>
+">Strona główna</a>
+      </li>
+      <li class="nav-item">
+        <span class="nav-separator"> | </span>
+      </li>
       <li class="nav-item">
         <a
           class="nav-link <?php if (!$_smarty_tpl->tpl_vars['show_login_form']->value) {?>active<?php }?>"

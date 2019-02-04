@@ -47,7 +47,7 @@
       {include file='_partials/notifications.tpl'}
     {/block}
 
-    <section id="wrapper">
+    <section id="wrapperCheckout">
       {hook h="displayWrapperTop"}
       <div class="container">
 

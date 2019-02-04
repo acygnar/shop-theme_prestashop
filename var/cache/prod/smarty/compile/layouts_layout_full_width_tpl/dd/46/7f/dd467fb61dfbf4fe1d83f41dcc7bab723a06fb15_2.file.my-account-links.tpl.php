@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-01-16 12:37:45
+/* Smarty version 3.1.33, created on 2019-01-17 20:16:14
   from 'C:\xampp2\htdocs\presta\themes\classicBioSanti\templates\customer\_partials\my-account-links.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c3f1789e43080_01378693',
+  'unifunc' => 'content_5c40d47e569d06_84872952',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,20 +20,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c3f1789e43080_01378693 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c40d47e569d06_84872952 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4951437215c3f1789e3e944_54844731', 'my_account_links');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_5917796635c40d47e5651a6_97157693', 'my_account_links');
 ?>
 
 <?php }
 /* {block 'my_account_links'} */
-class Block_4951437215c3f1789e3e944_54844731 extends Smarty_Internal_Block
+class Block_5917796635c40d47e5651a6_97157693 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'my_account_links' => 
   array (
-    0 => 'Block_4951437215c3f1789e3e944_54844731',
+    0 => 'Block_5917796635c40d47e5651a6_97157693',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

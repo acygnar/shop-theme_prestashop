@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-01-16 12:19:44
+/* Smarty version 3.1.33, created on 2019-02-04 18:11:05
   from 'module:pshomeproductsviewstempla' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c3f1350f26a22_05762509',
+  'unifunc' => 'content_5c587229854c95_30594591',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_5c3f1350f26a22_05762509 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c587229854c95_30594591 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section>
   <div class="catHomeDescription">

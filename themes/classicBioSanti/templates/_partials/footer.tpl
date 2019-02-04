@@ -46,7 +46,7 @@
         <p class="text-sm-center">
           {block name='copyright_link'}
             <a class="_blank" href="" target="_blank">
-              Zaprojektowane przez Adrian Cygnar
+              Wykonane przez Adrian Cygnar
             </a>
           {/block}
         </p>

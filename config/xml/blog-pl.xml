@@ -6,6 +6,14 @@
     <language>pl</language>
      <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Kalendarz e-commerce: darmowe narzędzie, by osiągnąć wspaniały sukces w 2019 roku!</title>
+    <link>https://www.prestashop.com/pl/blog/Kalendarz-e-commerce-2019</link>
+    <description>Oto długo oczekiwany i wreszcie gotowy do pobrania darmowy kalendarz e-commerce na rok 2019. Dzięki niemu nie zapomnisz o żadnym gorącym okresie w roku.</description>
+     <pubDate>Tue, 15 Jan 2019 16:07:51 +0100</pubDate>
+ <dc:creator>MLNielsen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/Kalendarz-e-commerce-2019</guid>
+  </item>
+  <item>
     <title>PrestaShop 1.7.5.0: oczekiwane przez Was funkcje są już dostępne!</title>
     <link>https://www.prestashop.com/pl/blog/funkcje-prestashop-1-7-5</link>
     <description>Nowa pomniejsza aktualizacja oprogramowania PrestaShop, oznaczona numerem 1.7.5.0 i utworzona głównie dzięki informacjom zwrotnym od społeczności użytkowników, jest już dostępna do</description>
@@ -76,14 +84,6 @@
      <pubDate>Wed, 25 Jul 2018 10:41:35 +0200</pubDate>
  <dc:creator>camille.teissier</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/pl/blog/jak-wniesc-swoj-wklad-w-projekt-prestashop</guid>
-  </item>
-  <item>
-    <title>Przygotuj swój sklep na przyszłe akcje marketingowe z kalendarzem e-commerce 2018.</title>
-    <link>https://www.prestashop.com/pl/blog/kalendarzee-commerce-2018</link>
-    <description>Mistrzostwa świata w piłce nożnej, wyprzedaże, turniej Wielkiego Szlema, Super Bowl, święto państwowe czy nawet Dzień Czekolady...</description>
-     <pubDate>Mon, 02 Jul 2018 12:04:18 +0200</pubDate>
- <dc:creator>camille.teissier</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/pl/blog/kalendarzee-commerce-2018</guid>
   </item>
   </channel>
 </rss>

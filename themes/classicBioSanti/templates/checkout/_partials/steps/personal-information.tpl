@@ -32,7 +32,13 @@
 
   {else}
 
-    <ul class="nav nav-inline my-2" role="tablist">
+    <ul class="navi nav-inline my-2" role="tablist">
+      <li class="nav-item">
+        <a href="{$urls.base_url}">Strona główna</a>
+      </li>
+      <li class="nav-item">
+        <span class="nav-separator"> | </span>
+      </li>
       <li class="nav-item">
         <a
           class="nav-link {if !$show_login_form}active{/if}"

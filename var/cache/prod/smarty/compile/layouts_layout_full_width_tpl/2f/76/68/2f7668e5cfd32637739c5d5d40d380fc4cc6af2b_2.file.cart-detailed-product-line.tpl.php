@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-01-09 15:42:44
+/* Smarty version 3.1.33, created on 2019-02-03 12:42:38
   from 'C:\xampp2\htdocs\presta\themes\classicBioSanti\templates\checkout\_partials\cart-detailed-product-line.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c3608646ba0e0_16063333',
+  'unifunc' => 'content_5c56d3ae1926f0_37595968',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2f7668e5cfd32637739c5d5d40d380fc4cc6af2b' => 
     array (
       0 => 'C:\\xampp2\\htdocs\\presta\\themes\\classicBioSanti\\templates\\checkout\\_partials\\cart-detailed-product-line.tpl',
-      1 => 1544687276,
+      1 => 1549194140,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c3608646ba0e0_16063333 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c56d3ae1926f0_37595968 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -37,10 +37,8 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
   <!--  product left body: description -->
   <div class="product-line-grid-body col-md-4 col-xs-8">
     <div class="product-line-info">
-      <a class="label" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['url'], ENT_QUOTES, 'UTF-8');?>
-" data-id_customization="<?php echo htmlspecialchars(intval($_smarty_tpl->tpl_vars['product']->value['id_customization']), ENT_QUOTES, 'UTF-8');?>
-"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['name'], ENT_QUOTES, 'UTF-8');?>
-</a>
+      <span><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['name'], ENT_QUOTES, 'UTF-8');?>
+</span>
     </div>
 
     <div class="product-line-info product-price h5 <?php if ($_smarty_tpl->tpl_vars['product']->value['has_discount']) {?>has-discount<?php }?>">
@@ -92,7 +90,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     <?php if (is_array($_smarty_tpl->tpl_vars['product']->value['customizations']) && count($_smarty_tpl->tpl_vars['product']->value['customizations'])) {?>
       <br>
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1533084025c3608646a54e9_00400905', 'cart_detailed_product_line_customization');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_20212812045c56d3ae173bf5_43629984', 'cart_detailed_product_line_customization');
 ?>
 
     <?php }?>
@@ -164,7 +162,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1533084025c3608646
           </a>
 
           <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_379692945c3608646b8d47_11495927', 'hook_cart_extra_product_actions');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11110591685c56d3ae191092_84176928', 'hook_cart_extra_product_actions');
 ?>
 
 
@@ -177,12 +175,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_379692945c3608646b
 </div>
 <?php }
 /* {block 'cart_detailed_product_line_customization'} */
-class Block_1533084025c3608646a54e9_00400905 extends Smarty_Internal_Block
+class Block_20212812045c56d3ae173bf5_43629984 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'cart_detailed_product_line_customization' => 
   array (
-    0 => 'Block_1533084025c3608646a54e9_00400905',
+    0 => 'Block_20212812045c56d3ae173bf5_43629984',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -250,12 +248,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'cart_detailed_product_line_customization'} */
 /* {block 'hook_cart_extra_product_actions'} */
-class Block_379692945c3608646b8d47_11495927 extends Smarty_Internal_Block
+class Block_11110591685c56d3ae191092_84176928 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hook_cart_extra_product_actions' => 
   array (
-    0 => 'Block_379692945c3608646b8d47_11495927',
+    0 => 'Block_11110591685c56d3ae191092_84176928',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

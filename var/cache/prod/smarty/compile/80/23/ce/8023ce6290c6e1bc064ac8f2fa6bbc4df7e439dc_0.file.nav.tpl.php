@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-01-15 23:53:39
+/* Smarty version 3.1.33, created on 2019-01-19 08:51:25
   from 'C:\xampp2\htdocs\presta\admin7270ibkv6\themes\default\template\nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c3e64739c1a61_94311695',
+  'unifunc' => 'content_5c42d6fdb8dbc8_82395880',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c3e64739c1a61_94311695 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c42d6fdb8dbc8_82395880 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="nav-bar d-none d-md-block" role="navigation" id="nav-sidebar">
 	<span class="menu-collapse">
 		<i class="material-icons">chevron_left</i>

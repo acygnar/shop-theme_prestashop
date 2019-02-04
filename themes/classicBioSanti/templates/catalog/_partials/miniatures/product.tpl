@@ -27,7 +27,6 @@
      <div class="thumbnail-container">
        {block name='product_thumbnail'}
         {if $product.cover}
-         {* <a href="{$product.url}" class="thumbnail product-thumbnail">*}
             <img
               src = "{$product.cover.bySize.home_default.url}"
               alt = "{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name|truncate:30:'...'}{/if}"
@@ -35,20 +34,20 @@
             >
           </a>
         {else}
-          <a href="{$product.url}" class="thumbnail product-thumbnail">
+          
             <img
               src = "{$urls.no_picture_image.bySize.home_default.url}"
             >
-          </a>
+          
         {/if}
       {/block}
 
       <div class="product-description">
         {block name='product_name'}
           {if $page.page_name == 'index'}
-            <h3 class="h3 product-title" itemprop="name"><a href="{$product.url}">{$product.name|truncate:30:'...'}</a></h3>
+            <h3 class="h3 product-title" itemprop="name">{$product.name|truncate:30:'...'}</h3>
           {else}
-            <h2 class="h3 product-title" itemprop="name"><a href="{$product.url}">{$product.name|truncate:30:'...'}</a></h2>
+            <h2 class="h3 product-title" itemprop="name">{$product.name|truncate:30:'...'}</h2>
           {/if}
         {/block}
 
@@ -92,7 +91,7 @@
         </ul>
       {/block}
 
-      <div class="highlighted-informations{if !$product.main_variants} no-variants{/if} hidden-sm-down">
+      <div class="highlighted-informations{if !$product.main_variants} no-variants{/if}">
         {block name='quick_view'}
           <a class="quick-view" href="#" data-link-action="quickview">
             <i class="material-icons">shopping_cart</i><span>KUP</span>

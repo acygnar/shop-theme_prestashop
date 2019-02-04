@@ -23,17 +23,21 @@
        z-index: 5;
        transition:0.4s;
     }
-    .nav-shadow{
+    .nav-shadow-slim{
       box-shadow: 0 4px 2px -2px rgb(240, 239, 239);
+      height:50px;
 }
     .logo{
        line-height: 98px;
        margin-left: 5%;
-    }
-    #header .logo img{
-       
-}
+       transition: 1s;
 
+    }
+    .logo-slim{
+       max-height: 50px;
+       line-height: 50px;
+    }
+ 
  .header-top {
    position: absolute;
    top:100px;
@@ -101,9 +105,6 @@
    align-items: center;
    box-sizing: border-box;
    }
-   .tabs{
-      
-   }
 
 .activeTab {
     color: #555;
@@ -143,26 +144,34 @@
 }
 
 /*****HOME*****/
+
 .catHomeDescription{
    display: flex;
    width: 100%;
    background: linear-gradient(to bottom, #fff,#F8F9F8, #F8F9F8);
+   overflow: hidden;
 }
 .imgHome{
+   position: relative;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-basis: 50%;
+   transform: translateX(-100vw);
+   opacity: 0;
+   transition: 2s;
    
 }
-.imgHome img{
-   animation-fill-mode:backwards;
-   animation-delay: 0.3s;
-   animation-duration: 1.5s;
+.imgHome.onposition{
+ transform: translateX(0);
+ opacity: 1;
 }
+  
+
 .animateslideLeft{
    animation: slideLeft;
 }
+
 .catHomeTxt{
    padding-top: 350px;
    padding-left: 100px;
@@ -172,18 +181,21 @@
 .catHomeTxt h1{
    color:#dbbc8a;
    font-size:45px;
-   animation: slideTop;
-   animation-fill-mode:backwards;
-   animation-delay: .5s;
-   animation-duration: 0.5s;
+   transform: translateY(-100vh);
+   opacity: 0;
+   transition: 1.5s linear;
+   font-family: 'Indie Flower', cursive;
+  
 }
 .catHomeTxt h3{
    color:#979797;
    font-size:14px;
    text-transform: uppercase;
-   animation: slideTop;
-   animation-fill-mode:backwards;
-   animation-duration: 0.5s; 
+   transform: translateY(-100vh);
+   opacity: 0;
+   transition: 2s linear;
+   font-family: 'Indie Flower', cursive;
+   
 }
 .catHomeTxt p{
    color: #979797;
@@ -191,11 +203,23 @@
    width: 53%;
    margin: 45px 0 30px 0;
    line-height: 1.5;
-   animation: slideTop;
-   animation-fill-mode:backwards;
-   animation-delay: 1s;
-   animation-duration: 0.7s;
+   transform: translateY(-100vh);
+   opacity: 0;
+   transition: 1s linear;
+
    }
+   h1.onposition{
+      transform: translateY(0);
+      opacity: 1;
+   }
+   h3.onposition{
+      transform: translateY(0);
+      opacity: 1;
+   }
+   p.onposition{
+      transform: translateY(0);
+      opacity: 1;
+      }
    .svgWave{
       stroke: none;
       fill:	#F8F9F8;
@@ -217,6 +241,7 @@
    animation: slideRight;
    animation-fill-mode:backwards;
    animation-duration: 1.2s;
+   font-family: 'Indie Flower', cursive;
    }
    .catSpaTxt h3{
    font-size:32px;
@@ -306,7 +331,8 @@ svg {
 }
 .imgSport h1{
    font-size: 150px;
-   color: #f0f0f0
+   color: #f0f0f0;
+   font-family: 'Indie Flower', cursive;
 }
 .inscription{
    animation: slideLeft;
@@ -324,11 +350,13 @@ svg {
    font-size: 32px;
    color: #212529;
    padding-top: 8%;
+   font-family: 'Indie Flower', cursive;
    }
 .row2{
    display: block;
    font-size: 32px;
    color: #212529;
+   font-family: 'Indie Flower', cursive;
 }
  .imgSport{
     display: flex;
@@ -425,10 +453,14 @@ svg {
 .footer-container .text-uppercase{
    font-size: 19px;
 }
-    
- .label:hover{
-      color:#707070;
+.nav-inline .nav-item{        /*Home-page link /presonal-information*/
+   margin-left: 1rem;
+   font-weight: 600;
 }
+    
+ /*.label:hover{
+      color:#707070;
+}*/
 
 /*****MyAccount*****/
 .accountLinks{
@@ -468,6 +500,16 @@ svg {
 }
 .page-header h1{
    padding-left: 2%;
+}
+
+.checkoutLogo{
+   padding:2% 0 2% 0;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+.btn{
+   border-radius: 2px;
 }
     
 /*****ANIMATION*****/
@@ -643,6 +685,18 @@ svg {
    .positionNewsletter{
       transform: translate(-25%,-50%);
    }
+@media (max-width: 742px){
+   .quickview .images-container .product-images>li.thumb-container>.thumb{
+      display: none;
+   }
+   .modal-content .btn-primary, .btn-secondary, .btn-tertiary{
+      text-transform: none;
+      width:97%;
+   }
+  .product-quantity .input-group-btn-vertical{
+      display:none;
+   }
+}
   
 }
 @media (max-width: 700px){
