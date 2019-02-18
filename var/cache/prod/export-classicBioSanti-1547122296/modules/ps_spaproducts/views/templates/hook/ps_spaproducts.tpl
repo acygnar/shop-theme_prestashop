@@ -26,7 +26,7 @@
 <section>
   <div class="catSpaDescription">
   <div class="imgSpa">
-  <img src="..\presta\themes\classicBioSanti\img\spa.png" alt="Kosmetyki z kategori spa"></img>
+  <img src="..\presta\themes\Classic2\img\spa.png" alt="Kosmetyki z kategori spa"></img>
   </div>
   <div class="catSpaTxt">
   <h1>Spa</h1>

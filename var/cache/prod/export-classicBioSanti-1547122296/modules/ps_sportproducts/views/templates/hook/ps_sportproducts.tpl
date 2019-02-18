@@ -33,7 +33,7 @@
   <span class="row1">Opis</span>
   <span class="row2">jakis tam opis</span>
   </div>
-  <img src="..\presta\themes\classicBioSanti\img\sport.png" alt="Kosmetyki z kategori sport"></img>
+  <img src="..\presta\themes\Classic2\img\sport.png" alt="Kosmetyki z kategori sport"></img>
   </div>
   <div class="catSportTxt">
   <h3>opis opis opis</h3>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-02-04 18:11:05
+/* Smarty version 3.1.33, created on 2019-02-18 17:57:32
   from 'module:pshomeproductsviewstempla' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c587229854c95_30594591',
+  'unifunc' => 'content_5c6ae3fc431c22_13601012',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e2e49201d74429009cd94b8f3445ec73abb0f6ae' => 
     array (
       0 => 'module:pshomeproductsviewstempla',
-      1 => 1547406343,
+      1 => 1550508354,
       2 => 'module',
     ),
   ),
@@ -21,12 +21,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_5c587229854c95_30594591 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c6ae3fc431c22_13601012 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section>
   <div class="catHomeDescription">
   <div class="imgHome">
-  <img src="..\presta\themes\classicBioSanti\img\home2.png" alt="Kosmetyki z kategori home"></img>
+  <img src="..\presta\themes\Classic2\img\home2.png" alt="Kosmetyki z kategori home"></img>
   </div>
   <div class="catHomeTxt">
   <h3><?php echo htmlspecialchars(FrontController::getH3(1), ENT_QUOTES, 'UTF-8');?>

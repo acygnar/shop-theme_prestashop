@@ -26,7 +26,7 @@
 <section>
   <div class="catHomeDescription">
   <div class="imgHome">
-  <img src="..\presta\themes\classicBioSanti\img\home2.png" alt="Kosmetyki z kategori home"></img>
+  <img src="..\presta\themes\Classic2\img\home2.png" alt="Kosmetyki z kategori home"></img>
   </div>
   <div class="catHomeTxt">
   <h3>Opis opis opis</h3>

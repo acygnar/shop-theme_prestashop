@@ -54,9 +54,9 @@
 {if $page_name != index} 
 {block name='header_top'}
   <div class="header-top">
-  <img class="imgBaner" src="\presta\themes\classicBioSanti\img\img1.jpg" alt="">
-  <img class="imgBaner" src="\presta\themes\classicBioSanti\img\img2.jpg" alt="">
-  <img class="imgBaner" src="\presta\themes\classicBioSanti\img\img3.jpg" alt="">
+  <img class="imgBaner" src="\presta\themes\Classic2\img\img1.jpg" alt="">
+  <img class="imgBaner" src="\presta\themes\Classic2\img\img2.jpg" alt="">
+  <img class="imgBaner" src="\presta\themes\Classic2\img\img3.jpg" alt="">
   <h1 class="txtBaner">FAJNY TEKST O SPA</h1>
   <h1 class="txtBaner">SUPER TEKST O HOME</h1>
   <h1 class="txtBaner">EKSTRA TEKST O SPORT</h1>

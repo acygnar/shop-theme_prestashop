@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-02-03 12:42:38
+/* Smarty version 3.1.33, created on 2019-02-06 17:52:23
   from 'C:\xampp2\htdocs\presta\themes\classicBioSanti\templates\checkout\_partials\cart-voucher.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c56d3ae23bbb9_74428517',
+  'unifunc' => 'content_5c5b10c71ffa65_62834060',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,18 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5c56d3ae23bbb9_74428517 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c5b10c71ffa65_62834060 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if ($_smarty_tpl->tpl_vars['cart']->value['vouchers']['allowed']) {?>
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4988991785c56d3ae22bac4_93653103', 'cart_voucher');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_19387051615c5b10c71eee72_54272695', 'cart_voucher');
 ?>
 
 <?php }
 }
 /* {block 'cart_voucher_list'} */
-class Block_21454224155c56d3ae22cb57_77703256 extends Smarty_Internal_Block
+class Block_372037755c5b10c71f0ef1_26072589 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -62,7 +62,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'cart_voucher_list'} */
 /* {block 'cart_voucher_form'} */
-class Block_531987305c56d3ae2335f7_18896358 extends Smarty_Internal_Block
+class Block_6595349595c5b10c71f7af3_40399384 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -82,7 +82,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'cart_voucher_form'} */
 /* {block 'cart_voucher_notifications'} */
-class Block_16933386575c56d3ae235a16_65563852 extends Smarty_Internal_Block
+class Block_4829796255c5b10c71f9d23_68754607 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -95,24 +95,24 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'cart_voucher_notifications'} */
 /* {block 'cart_voucher'} */
-class Block_4988991785c56d3ae22bac4_93653103 extends Smarty_Internal_Block
+class Block_19387051615c5b10c71eee72_54272695 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'cart_voucher' => 
   array (
-    0 => 'Block_4988991785c56d3ae22bac4_93653103',
+    0 => 'Block_19387051615c5b10c71eee72_54272695',
   ),
   'cart_voucher_list' => 
   array (
-    0 => 'Block_21454224155c56d3ae22cb57_77703256',
+    0 => 'Block_372037755c5b10c71f0ef1_26072589',
   ),
   'cart_voucher_form' => 
   array (
-    0 => 'Block_531987305c56d3ae2335f7_18896358',
+    0 => 'Block_6595349595c5b10c71f7af3_40399384',
   ),
   'cart_voucher_notifications' => 
   array (
-    0 => 'Block_16933386575c56d3ae235a16_65563852',
+    0 => 'Block_4829796255c5b10c71f9d23_68754607',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -122,7 +122,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
       <div class="cart-voucher">
         <?php if ($_smarty_tpl->tpl_vars['cart']->value['vouchers']['added']) {?>
           <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_21454224155c56d3ae22cb57_77703256', 'cart_voucher_list', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_372037755c5b10c71f0ef1_26072589', 'cart_voucher_list', $this->tplIndex);
 ?>
 
         <?php }?>
@@ -136,12 +136,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_21454224155c56d3ae
 
         <div class="promo-code collapse<?php if (count($_smarty_tpl->tpl_vars['cart']->value['discounts']) > 0) {?> in<?php }?>" id="promo-code">
           <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_531987305c56d3ae2335f7_18896358', 'cart_voucher_form', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6595349595c5b10c71f7af3_40399384', 'cart_voucher_form', $this->tplIndex);
 ?>
 
 
           <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16933386575c56d3ae235a16_65563852', 'cart_voucher_notifications', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4829796255c5b10c71f9d23_68754607', 'cart_voucher_notifications', $this->tplIndex);
 ?>
 
         </div>

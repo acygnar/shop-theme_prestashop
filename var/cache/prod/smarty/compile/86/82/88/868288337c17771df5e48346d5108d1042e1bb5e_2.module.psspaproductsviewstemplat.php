@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-02-04 18:11:05
+/* Smarty version 3.1.33, created on 2019-02-18 17:57:32
   from 'module:psspaproductsviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5c587229985319_49247121',
+  'unifunc' => 'content_5c6ae3fc561650_22264394',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '868288337c17771df5e48346d5108d1042e1bb5e' => 
     array (
       0 => 'module:psspaproductsviewstemplat',
-      1 => 1547406343,
+      1 => 1550508406,
       2 => 'module',
     ),
   ),
@@ -21,12 +21,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_5c587229985319_49247121 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c6ae3fc561650_22264394 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section>
   <div class="catSpaDescription">
   <div class="imgSpa">
-  <img src="..\presta\themes\classicBioSanti\img\spa.png" alt="Kosmetyki z kategori spa"></img>
+  <img src="..\presta\themes\Classic2\img\spa.png" alt="Kosmetyki z kategori spa"></img>
   </div>
   <div class="catSpaTxt">
   <h1>Spa</h1>
